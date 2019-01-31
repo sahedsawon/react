@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SeasionDispllay from './components/SeasionDisplay'
+
+import Exercise2 from './components/Exercise2';
+
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -13,15 +17,13 @@ class App extends React.Component {
             position => {
                 this.setState({
                     lat : position.coords.latitude,
-                    lon : position.coords.longitude,
                 })
             },
             err => console.log(err)
         )
         return <div>
-            <p> latitude : {this.state.lat} </p>
-            <p> longitude : {this.state.lon} </p>
+                <SeasionDispllay lat={this.state.lat}/>
             </div>
     }
 }
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<Exercise2 />, document.querySelector('#root'));
