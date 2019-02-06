@@ -2,9 +2,9 @@ import {combineReducers} from 'redux';
 
 const songListReducer = () => {
     return [
-        {title : 'Sono ho Dokhino hawa',duration : '4:55'},
-        {title : 'Dar dari na pra porisir, dar dari na karo',duration : '5:00'},
-        {title : 'Tomi poro kale hoyo rada',duration : '6:55'},
+        {title : 'Morar Kokile - Baby Naznin Music Video - Megher Kajol',duration : '3:45'},
+        {title : 'Fuad ft Mila | Hit Bangla Song | Baburam Sapure | Lyrical Video | ☢☢ EXCLUSIVE ☢☢',duration : '4:38'},
+        {title : 'Nisha Lagilo Re | by Mila | Album Re-Defined | Music Video | ☢☢Official☢☢',duration : '4:45'},
         {title : 'Mere nasib meen to...',duration : '3:55'},
         {title : 'Faguneri e mohonay ',duration : '8:00'},
     ];

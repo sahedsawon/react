@@ -7,7 +7,7 @@ class SongDetails extends React.Component {
             return <div>Song Details </div>
         }
         return  <div>
-                <h3>Title : {this.props.song.title}</h3>
+                <h5>Title : {this.props.song.title}</h5>
                 <p>Duration : {this.props.song.duration}</p>
             </div>
     }
