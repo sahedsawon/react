@@ -1,5 +1,4 @@
 # react
-React learning practices 
+React (with Redux) learning practices 
 
-#Redux
-React with Redux
+
