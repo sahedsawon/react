@@ -1,7 +1,6 @@
-import {combineReducers} from 'redux';
 import JSONPlaceHolder from '../API/JSONPlaceHolder';
 
-const fetchPost = () => {
+export const fetchPost = () => {
     return async function(dispatch,getState) {
        const response = await JSONPlaceHolder.get(`/posts`);
         return {
@@ -12,6 +11,3 @@ const fetchPost = () => {
    
 }
 
-export default combineReducers({
-    fetchPost
-});
