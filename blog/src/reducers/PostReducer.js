@@ -1,4 +1,4 @@
-import {combineReducers} from 'redux';
+
 export const PostReducer = (state=[],action) => {
     switch (action.type) {
         case 'FETCH_POSTS':
@@ -8,6 +8,3 @@ export const PostReducer = (state=[],action) => {
     }
 }
 
-export default combineReducers({
-    PostReducer
-});
